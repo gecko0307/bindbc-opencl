@@ -1,0 +1,27 @@
+{
+    "name": "bindbc-opencl",
+    "description": "D language binding to OpenCL",
+    "homepage": "https://github.com/gecko0307/bindbc-opencl",
+    "license": "Boost",
+    "authors": [
+        "Timur Gafarov"
+    ],
+    
+    "dependencies": {
+        "bindbc-loader": "~>1.0.0"
+    },
+
+    "importPaths": ["src"],
+    "sourcePaths": ["src"],
+
+    "buildRequirements":[
+        "allowWarnings"
+    ],
+
+    "configurations": [
+        {
+            "name": "library",
+            "targetType": "library"
+        }
+    ]
+}
