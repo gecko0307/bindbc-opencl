@@ -325,6 +325,8 @@ private
     CLSupport loadedVersion;
 }
 
+@nogc nothrow:
+
 void unloadOpenCL()
 {
     if (lib != invalidHandle)
